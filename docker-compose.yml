@@ -62,7 +62,7 @@ services:
       # local reverse proxy, you may want to listen on 127.0.0.1.
       # Example:
       # - "127.0.0.1:3000:3000"
-      - "3000:3000"
+      - "8000:3000"
     networks:
       backend:
     restart: always
